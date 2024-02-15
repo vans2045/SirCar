@@ -400,6 +400,29 @@ button:focus {
 .address-item a:hover {
   color: #fdb819;
 }
+@media only screen and (max-width: 768px) {
+  .banner-area:before {
+    width: 400px;
+    height: 500px;
+    right: -144px;
+    top: -46px;
+  }
+
+  .banner-area .banner-img  img:nth-child(2) {
+    display: none; /* Hide the car image in mobile view */
+  }
+  .d-table .cmn-btn .banner-btn-left {
+     margin: 20px;
+  }
+
+  .banner-area .banner-text {
+    padding: 20px; /* Add padding */
+  }
+
+  .banner-area .banner-text h1 {
+    margin-top: 0; /* Reset margin */
+  }
+}
 
 /*-- End Address --*/
 /*-- Process --*/
